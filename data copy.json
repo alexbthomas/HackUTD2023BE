@@ -1,0 +1,61 @@
+{
+    "Drugs": {
+      "01234-5678-90": {
+        "doctor": "Saul Goodman",
+        "dose": 1,
+        "expDate": "11/04/2025",
+        "freq1": 2,
+        "patient": "Vye Russ",
+        "per1": "day",
+        "rxDate": "11/04/2023",
+        "rxName": "Metformin 500 mg",
+        "rxQty": 60,
+        "unit": "Tablet"
+      },
+      "19840-8964-11": {
+        "doctor": "Giwell Sue",
+        "dose": 1,
+        "expDate": "12/14/2023",
+        "freq1": 2,
+        "patient": "Vye Russ",
+        "per1": "day",
+        "rxDate": "10/14/2021",
+        "rxName": "sacubtrl/valsartan 49mg/51mg",
+        "rxQty": 60,
+        "unit": "Tablet"
+      },
+      "44729-4274-34": {
+        "doctor": "Giwell Sue",
+        "dose": 1,
+        "expDate": "10/14/2023",
+        "freq1": 1,
+        "patient": "Ron G. Tang",
+        "per1": "day",
+        "rxDate": "10/14/2021",
+        "rxName": "Lisinopril 20 mg",
+        "rxQty": 90,
+        "unit": "Tablet"
+      },
+      "84936-2746-23": {
+        "doctor": "Ingrid Health",
+        "dose": 1,
+        "expDate": "01/01/2024",
+        "freq1": 1,
+        "patient": "Vye Russ",
+        "per1": "as needed",
+        "rxDate": "01/01/2022",
+        "rxName": "Meclizine 25 mg",
+        "rxQty": 30,
+        "unit": "Tablet"
+      }
+    },
+    "drug-interactions": {
+      "19840-8964-11": [
+        "44729-4274-34"
+      ],
+      "44729-4274-34": [
+        "19840-8964-11"
+      ]
+    },
+    "drugs-administered": []
+}
