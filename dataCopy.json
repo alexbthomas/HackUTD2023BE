@@ -1,0 +1,78 @@
+{
+  "Drugs": {
+      "1": {
+          "doctor": "Saul Goodman",
+          "dose": 1,
+          "expDate": "11/04/2025",
+          "freq1": 2,
+          "patient": "Vye Russ",
+          "per1": "day",
+          "rxDate": "11/04/2023",
+          "rxName": "Drug 1",
+          "rxQty": 60,
+          "unit": "Tablet",
+          "confirmation": true
+      },
+      "2": {
+          "doctor": "Giwell Sue",
+          "dose": 1,
+          "expDate": "12/14/2023",
+          "freq1": 2,
+          "patient": "Vye Russ",
+          "per1": "day",
+          "rxDate": "10/14/2021",
+          "rxName": "Drug 2",
+          "rxQty": 60,
+          "unit": "Tablet",
+          "confirmation": false
+      },
+      "3": {
+          "doctor": "Giwell Sue",
+          "dose": 1,
+          "expDate": "10/14/2023",
+          "freq1": 1,
+          "patient": "Ron G. Tang",
+          "per1": "day",
+          "rxDate": "10/14/2021",
+          "rxName": "Drug 3",
+          "rxQty": 90,
+          "unit": "Tablet",
+          "confirmation": false
+      },
+      "4": {
+          "doctor": "Ingrid Health",
+          "dose": 1,
+          "expDate": "01/01/2024",
+          "freq1": 1,
+          "patient": "Vye Russ",
+          "per1": "as needed",
+          "rxDate": "01/01/2022",
+          "rxName": "Drug 4",
+          "rxQty": 30,
+          "unit": "Tablet",
+          "confirmation": false
+      },
+      "5": {
+          "doctor": "Jonathan Smith",
+          "dose": 2,
+          "expDate": "12/12/2024",
+          "freq1": 2,
+          "patient": "Alex Brown",
+          "per1": "daily",
+          "rxDate": "05/05/2022",
+          "rxName": "Drug 5",
+          "rxQty": 40,
+          "unit": "Capsule",
+          "confirmation": false
+      }
+  },
+  "drug-interactions": {
+      "1": [
+          "2"
+      ],
+      "2": [
+          "1"
+      ]
+  },
+  "drugs-administered": {}
+}
